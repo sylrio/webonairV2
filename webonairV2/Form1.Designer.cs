@@ -46,10 +46,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -237,32 +234,6 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // richTextBox2
-            // 
-            this.richTextBox2.AutoWordSelection = true;
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.DetectUrls = false;
-            this.richTextBox2.Location = new System.Drawing.Point(15, 367);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(144, 31);
-            this.richTextBox2.TabIndex = 15;
-            this.richTextBox2.Text = "Login : bfmtvjournaliste\nMot de passe : 0zBbGBCKv";
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.AutoWordSelection = true;
-            this.richTextBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.DetectUrls = false;
-            this.richTextBox3.Location = new System.Drawing.Point(196, 367);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(143, 31);
-            this.richTextBox3.TabIndex = 17;
-            this.richTextBox3.Text = "Login : bfm_tv\nMot de passe : 1a04804f";
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -276,19 +247,6 @@
             this.button5.Text = "Twitter";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.AutoWordSelection = true;
-            this.richTextBox4.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox4.DetectUrls = false;
-            this.richTextBox4.Location = new System.Drawing.Point(375, 367);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.ReadOnly = true;
-            this.richTextBox4.Size = new System.Drawing.Size(143, 31);
-            this.richTextBox4.TabIndex = 20;
-            this.richTextBox4.Text = "Login : truquistespi\nMot de passe : bfmtvpi";
             // 
             // button4
             // 
@@ -311,11 +269,8 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(607, 401);
-            this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.richTextBox3);
-            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -348,13 +303,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.DataGridViewButtonColumn titre;
         private System.Windows.Forms.DataGridViewTextBoxColumn lien1;
         private System.Windows.Forms.DataGridViewButtonColumn btn1;
-        private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.Button button4;
     }
 }
